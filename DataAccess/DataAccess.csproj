@@ -112,6 +112,7 @@
       <DependentUpon>University.edmx</DependentUpon>
       <LastGenOutput>University.cs</LastGenOutput>
     </Content>
+    <Content Include="University_Scripts_Data.sql" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
