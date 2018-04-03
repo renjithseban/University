@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0cae108191c642809a1dfe024080978b" Name="Diagram1" ZoomLevel="72" ShowGrid="true">
+        <EntityTypeShape EntityType="University.Student" Width="1.5" PointX="2.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="University.News" Width="1.5" PointX="4.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="University.Event" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="University.Program" Width="1.5" PointX="3" PointY="0.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="University.Department" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="false" />
+        <AssociationConnector Association="University.FK_Program_Department" />
+        <EntityTypeShape EntityType="University.ProgramType" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="false" />
+        <AssociationConnector Association="University.FK_Program_ProgramType" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
